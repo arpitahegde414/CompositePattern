@@ -4,7 +4,6 @@ public class CompositeOperand implements ArithmeticOperands {
 	ArithmeticOperands left;
 	ArithmeticOperands right;
 	String operator;
-	int value;
 	public CompositeOperand(ArithmeticOperands left,ArithmeticOperands right,String operator) {
 		this.left=left;
 		this.right=right;
